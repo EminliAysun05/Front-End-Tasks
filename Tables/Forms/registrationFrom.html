@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Registration Form : Dance Club</h3>
+    <table border="1">
+        <tr>
+            <th>
+                <label for="name">Name: </label>
+                <td>
+                    <input type="text" id="name">
+                </td>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <label for="no"> IC No: </label>
+                <td>
+                    <input type="text" id="no">
+                </td>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <label for="address">Address: </label>
+                <td>
+                    <textarea id="address" rows="7"></textarea>
+                </td>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <label>Gender: </label>
+            </th>
+            <td>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female" >Female</label>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <label for="dance">Dance Type: </label>
+            </th>
+            <td>
+                <input type="checkbox" id="zapin">
+                <label for="zapin">Zapin</label>
+                <input type="checkbox" id="joget">
+                <label for="joget">Joget</label>
+                <input type="checkbox" id="inang">
+                <label for="inang">Inang</label>
+                <input type="checkbox" id="lion">
+                <label for="lion">Lion Dance</label>
+            </td>
+        </tr>
+
+        <tr>
+            <th>
+                <label for="competition">Competition:</label>
+            </th>
+            <td>
+               
+                <select name="select" id="" multiple="3">
+                    <option name="select">State Level</option>
+                    <option name="select">Nation Level</option>
+                    <option name="select">StateInternational Level</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <label for="nationality">Nationality:</label>
+            </th>
+            <td>
+                <select name="nationality" id="" >
+                    <option selected disabled>Please select</option>
+                     <option value="" id="nationality">Azerbaijani</option>
+                <option value="" id="nationality">Turkiye</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <label for="password">Password:</label>
+            </th>
+            <td>
+                <input type="password" name="" id="password">
+            </td>
+        </tr>
+    </table> <br> 
+    <input type="button" name="" id="register" value="Register me">
+    <input type="button" name="" id="cancel" value="Cancel">
+</body>
+</html>
