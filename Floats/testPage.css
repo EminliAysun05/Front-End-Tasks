@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 20px;
+}
+
+.left, .right {
+  width: 30%;
+  float: left;
+  margin-right: 5%;
+}
+
+
+header, .up-right-box {
+  height: 5vh;
+  background-color: orange;
+  text-align: center;
+  line-height: 5vh;
+  color: white;
+  font-weight: bold;
+}
+
+main {
+  margin-top: 15px;
+}
+
+.main-boxes-left {
+  float: left;
+  background-color: orange;
+  width: 55%;
+  height: 45vh;
+  text-align: center;
+  line-height: 45vh;
+  margin-right: 5%;
+}
+
+.main-boxes-right {
+  float: left;
+  background-color: orange;
+  width: 40%;
+  height: 45vh;
+  text-align: center;
+  line-height: 45vh;
+}
+
+.tree-boxes {
+  margin-top: 15px;
+}
+
+.tree-boxes .box {
+  float: left;
+  background-color: deepskyblue;
+  width: 30%;
+  height: 20vh;
+  margin-right: 5%;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 20vh;
+}
+
+.tree-boxes .box:last-child {
+  margin-right: 0;
+}
+ .footer-down-box {
+  height: 5vh;
+  background-color: grey;
+  margin-top: 15px;
+  text-align: center;
+  line-height: 5vh;
+  color: white;
+  font-weight: bold;
+}
+footer .box-footer{
+height: 5vh;
+background-color: grey;
+margin-top: 515px;
+}
+/* Sağ tərəfdəki qutular */
+.main-box {
+  background-color: orange;
+  height: 25vh;
+  margin-top: 15px;
+  text-align: center;
+  line-height: 45vh;
+}
+
+.same-boxes {
+  background-color: deepskyblue;
+  height: 10vh;
+  margin-top: 15px;
+  text-align: center;
+  line-height: 20vh;
+}

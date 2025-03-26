@@ -17,6 +17,7 @@
 
 .main .left{
     float: left;
+    width: 13%;
    
     
 }
@@ -29,6 +30,8 @@
     font-size: 15px;
     line-height: 1.1;
     margin-top: 0;
+    width: 90%;
+    text-align: justify;
 }
 .main img{
    width: 150px;
