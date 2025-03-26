@@ -1,0 +1,42 @@
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
+    padding: 5px;
+    
+}
+.navbar ul a{
+   text-decoration: none;
+    color: white;
+    
+}
+.navbar{
+    background-color: red;
+    margin-right: 450px;
+}
+
+.main .left{
+    float: left;
+   
+    
+}
+.main .right{
+    float: left;
+    width: 55%;
+    height: 15px;
+}
+.right p{
+    font-size: 15px;
+    line-height: 1.1;
+    margin-top: 0;
+}
+.main img{
+   width: 150px;
+   
+}
+.main{
+    width: 45%;
+}
+.main .list ul li{
+    list-style-type: decimal;
+}
