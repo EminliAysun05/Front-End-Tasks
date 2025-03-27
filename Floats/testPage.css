@@ -1,92 +1,90 @@
-body {
-  margin: 0;
-  padding: 20px;
-}
-
-.left, .right {
-  width: 30%;
-  float: left;
-  margin-right: 5%;
-}
-
-
-header, .up-right-box {
-  height: 5vh;
-  background-color: orange;
-  text-align: center;
-  line-height: 5vh;
-  color: white;
-  font-weight: bold;
-}
-
-main {
-  margin-top: 15px;
-}
-
-.main-boxes-left {
-  float: left;
-  background-color: orange;
-  width: 55%;
-  height: 45vh;
-  text-align: center;
-  line-height: 45vh;
-  margin-right: 5%;
-}
-
-.main-boxes-right {
-  float: left;
-  background-color: orange;
+.first-box{
   width: 40%;
-  height: 45vh;
-  text-align: center;
-  line-height: 45vh;
-}
-
-.tree-boxes {
-  margin-top: 15px;
-}
-
-.tree-boxes .box {
+  height: 70vh;
   float: left;
-  background-color: deepskyblue;
-  width: 30%;
-  height: 20vh;
-  margin-right: 5%;
-  margin-top: 10px;
-  text-align: center;
-  line-height: 20vh;
 }
-
-.tree-boxes .box:last-child {
-  margin-right: 0;
-}
- .footer-down-box {
-  height: 5vh;
-  background-color: grey;
-  margin-top: 15px;
-  text-align: center;
-  line-height: 5vh;
-  color: white;
-  font-weight: bold;
-}
-footer .box-footer{
-height: 5vh;
-background-color: grey;
-margin-top: 515px;
-}
-/* Sağ tərəfdəki qutular */
-.main-box {
+.first-box .top-box{
+  width: 100%;
+  height: 70px;
   background-color: orange;
-  height: 25vh;
-  margin-top: 15px;
-  text-align: center;
-  line-height: 45vh;
+}
+.first-box .middle-main-box{
+  margin-top: 10px;
+  width: 100%;
+  height: 30vh;
 }
 
-.same-boxes {
-  background-color: deepskyblue;
+.first-box .middle-main-box .left-box{
+  width: 67%;
+  height: 30vh;
+  background-color: orange;
+  float: left;
+}
+
+.first-box .middle-main-box .right-box{
+  width: 30%;
+  height: 30vh;
+  background-color: orange;
+  float: right;
+}
+
+.first-box .main-blue-box{
+  width: 100%;
+  height: 20vh;
+}
+
+.first-box .main-blue-box .blue-box{
+  margin-top: 10px;
+  width: 33%;
+  height: 20vh;
+  background-color: orange;
+  float: left;
+}
+.first-box .main-blue-box .blue-box:nth-child(2){
+  margin: 10px 2.4px;
+}
+.first-box .bottom-box{
+  width: 100%;
   height: 10vh;
+  background-color: orange;
+}
+.second-box{
+width: 30%;
+height: 70vh;
+float: left;
+margin-left: 15px;
+}
+.second-box .second-top-box{
+background-color: aqua;
+width: 100%;
+height: 70px;
+}
+
+.second-main-box .main-box{
+width: 100%;
+height: 100px;
+background-color: aqua;
+margin-top: 15px;
+}
+
+.second-box .second-blue-box{
+  width: 100%;
+  height: 100px;
   margin-top: 15px;
-  text-align: center;
-  line-height: 20vh;
+  
+}
+.second-blue-box .second-blue{
+  width: 100%;
+  height: 52px;
+  background-color: red;
+  margin-top: 5px;
+}
+.second-bottom-box{
+margin-top: 70px;
+}
+.second-bottom-box .blue-bottom-box{
+  width: 100%;
+  height: 60px;
+  background-color: grey;
+
 }
