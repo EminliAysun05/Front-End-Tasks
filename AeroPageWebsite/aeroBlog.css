@@ -1,0 +1,69 @@
+.explore-blog{
+    width: 100%;
+    height: 100vh;
+    margin-top: 160px;
+}
+.explore-blog .blog-button{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ea580c33;
+    border: 1.5px solid;
+    color: orange;
+    padding: 10px;
+    width: 6%;
+    font-size: .75rem;
+    font-weight: bolder;
+    line-height: 1rem;
+    padding: 1px;
+    border-radius: 5px;
+}
+
+.explore-blog .blog-text h2{
+    font-size: 2.25rem;
+    line-height: 2.5;
+    font-weight: 600;
+    text-align: center;
+} 
+.explore-blog .blog-text p{
+   width: 40%;
+   margin: 0 auto;
+   text-align: center;
+   font-size: 12px;
+}
+
+.explore-blog .explore-cards{
+    padding: 50px;
+    display: flex;
+   margin: 0 30px;
+    
+}
+.explore-blog .explore-cards .left-card, .right-card{
+    display: flex;
+    margin: 0 25px;
+    height: 50vh;
+    border: 1px solid rgb(101, 101, 101);
+    border-radius: 10px;
+}
+
+.explore-blog .explore-cards .left-card-image img, .right-card-image img{
+    width: 90%;
+    border-radius: 15%;
+    padding: 30px;
+}
+
+.explore-blog .explore-cards .left-card .explore-left-text, .right-card .explore-right-text{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.explore-blog .explore-cards .left-card h3, .right-card h3{
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.explore-blog .explore-cards .left-card .explore-left-text p, .right-card .explore-right-text p{
+    width: 60%;
+    margin: 0;
+    text-align: left;
+}
